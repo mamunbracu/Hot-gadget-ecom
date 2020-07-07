@@ -1,6 +1,15 @@
 nav img{
     width: 70px;
 }
+.price{
+    color: #ff136f;
+}
+.line {
+    width: 200px;
+    height: 0px;
+    margin-bottom: 36px;
+    border-bottom: 2px solid rgb(190, 211, 5);
+}
 .buy-button{
     background-image: linear-gradient(to bottom,#FF589B 0%,#ff136f 100%);
     color: #fff;
@@ -16,8 +25,14 @@ nav img{
 .buy-button:hover{
     color: #fff;
 }
+.crd{
+    box-shadow: 3px 4px 8px 2px;
+}
 .orange-bg{
     background: #ab8e8ab8;
+}
+.carousel-item{
+    padding: 20px 40px;
 }
 footer{
     background: rgb(67, 67, 253);
