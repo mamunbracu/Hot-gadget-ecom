@@ -1,6 +1,13 @@
 nav img{
     width: 70px;
 }
+nav{
+    opacity: 0.9;
+}
+nav ul li:hover{
+    
+    background: #acaf02!important;
+}
 .price{
     color: #ff136f;
 }
@@ -10,8 +17,14 @@ nav img{
     margin-bottom: 36px;
     border-bottom: 2px solid rgb(190, 211, 5);
 }
+.line-2 {
+    width: 180px;
+    height: 6px;
+    
+    border-bottom: 4px solid rgb(223, 247, 12);
+}
 .buy-button{
-    background-image: linear-gradient(to bottom,#FF589B 0%,#ff136f 100%);
+    background: #080811;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -28,29 +41,56 @@ nav img{
 .crd{
     box-shadow: 3px 4px 8px 2px;
 }
+.right{
+    color: #acaf02;
+}
 .orange-bg{
     background: #ab8e8ab8;
 }
 .carousel-item{
     padding: 20px 40px;
 }
-footer{
-    background: rgb(67, 67, 253);
+
+#cate{
+    background: #f4f5d1;
 }
-footer ul li{
-    list-style: none;
-    padding: 6px;
-}
-footer ul li a{
+.nis{
+    margin-top: 100px;
    
-    color: white;
 }
-footer ul li a:hover{
-    text-decoration: none;
-    color: tomato;
+.nis-1{
+    padding: 50px;
+  
+}.divider{
+    display: inline-block;
+    margin: 1rem auto;
 }
 
-footer a:hover{
-text-decoration: none;
-color: tomato;
+/*====Footer Section====*/
+.footer-section{
+    background: #4c2e2e;
+}
+.footer-section .short-info{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 1.6rem;
+}
+.footer-section .first-footer .short-info{
+    width: 100%;
+}
+.footer-section .payment-grid,
+.footer-section .icon-grid{
+    margin-top: 3rem;
+}
+.footer-section .payment-grid i,
+.footer-section .icon-grid i{
+    font-size: 2rem;
+    color: #fff;
+    margin-left: 1rem;
+}
+.footer-section .icon-grid  i:hover {
+    color: #cc9900;   
+}
+footer h3{
+    margin-right: 50px;
 }
