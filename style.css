@@ -1,0 +1,41 @@
+nav img{
+    width: 70px;
+}
+.buy-button{
+    background-image: linear-gradient(to bottom,#FF589B 0%,#ff136f 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.buy-button:hover{
+    color: #fff;
+}
+.orange-bg{
+    background: #ab8e8ab8;
+}
+footer{
+    background: rgb(67, 67, 253);
+}
+footer ul li{
+    list-style: none;
+    padding: 6px;
+}
+footer ul li a{
+   
+    color: white;
+}
+footer ul li a:hover{
+    text-decoration: none;
+    color: tomato;
+}
+
+footer a:hover{
+text-decoration: none;
+color: tomato;
+}
